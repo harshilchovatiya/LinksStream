@@ -343,6 +343,23 @@ body {
         font-size: 1.2em; /* Further reduce size for very small screens */
         margin: 0 8px; /* Further reduce spacing */
     }
+    .buttons {
+        flex-direction: row; /* Ensure buttons are in a row */
+        justify-content: space-between; /* Space between buttons */
+    }
+    
+    .btn {
+        flex: 1; /* Allow buttons to take up equal space */
+        margin: 5px; /* Space between buttons */
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 8px 12px; /* Adjust padding for smaller screens */
+    }
+    
+    .btn-primary, .btn-secondary, .btn-tertiary, .btn-quaternary {
+        width: 22%; /* Make sure buttons fit in a row */
+        text-align: center; /* Center align text in buttons */
+    }
+
 }
 
 #back-to-top {
