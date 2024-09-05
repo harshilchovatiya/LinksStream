@@ -339,6 +339,9 @@ body {
         height: 120px; /* Adjusted height for very small screens */
     }
 
+    .social-links {
+        display: block
+    }
     .social-links a {
         font-size: 1.2em; /* Further reduce size for very small screens */
         margin: 0 8px; /* Further reduce spacing */
