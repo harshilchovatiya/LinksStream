@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://harshilchovatiya.github.io/LinkStream/</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Social Media Links -->
+    <url>
+        <loc>https://twitter.com/harshilbmk</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://instagram.com/harshilchovatiyaa</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://linkedin.com/in/harshilbmk</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://github.com/harshilchovatiya</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>mailto:harshilbmk@gmail.com</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://medium.com/@harshilbmk</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://youtube.com/@harshilchovatiyaa</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Book Page -->
+    <url>
+        <loc>https://harshilchovatiya.github.io/book</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Resume -->
+    <url>
+        <loc>https://harshilchovatiya.github.io/resume/Resume.pdf</loc>
+        <lastmod>2024-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Allow: /public/
+
+Sitemap: https://harshilchovatiya.github.io/LinkStream/sitemap.xml
