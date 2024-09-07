@@ -2,6 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const username = 'harshilbmk'; // Replace with your Medium username
     const rssUrl = `https://medium.com/feed/@${username}`;
     const itemsToFetch = 10; // Number of items to fetch
+    const supportBtn = document.getElementById('support-btn');
+    const supportOptions = document.getElementById('support-options');
+    const supportIcon = supportBtn.querySelector('.fas');
 
     function fetchBlogs() {
         document.getElementById('loading-spinner').style.display = 'block';
@@ -63,10 +66,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initial fetch
     fetchBlogs();
-
-    const supportBtn = document.getElementById('support-btn');
-    const supportOptions = document.getElementById('support-options');
-    const supportIcon = supportBtn.querySelector('.fas');
 
     supportBtn.addEventListener('click', function () {
         if (supportOptions.style.display === 'flex') {
