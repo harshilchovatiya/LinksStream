@@ -63,6 +63,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initial fetch
     fetchBlogs();
+
+    const supportBtn = document.getElementById('support-btn');
+    const supportOptions = document.getElementById('support-options');
+    const supportIcon = supportBtn.querySelector('.fas');
+
+    supportBtn.addEventListener('click', function () {
+        if (supportOptions.style.display === 'flex') {
+            supportOptions.style.display = 'none';
+            supportIcon.classList.replace('fa-times', 'fa-heart');
+        } else {
+            supportOptions.style.display = 'flex';
+            supportIcon.classList.replace('fa-heart', 'fa-times');
+        }
+    });
 });
 
 

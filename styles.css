@@ -384,9 +384,82 @@ body {
     font-size: 24px; /* Adjust font size */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
     transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    z-index: 1001; /* Ensure it's above the support buttons */
 }
 
 #back-to-top:hover {
     background-color: #1c8c68;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Support Button and Options */
+.support-container {
+    position: fixed;
+    bottom: 80px; /* Ensure it's above the back-to-top button */
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000; /* Lower than the back-to-top button */
+}
+
+
+.support-btn {
+    background-color: #29a587;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.support-btn:hover {
+    background-color: #1c8c68;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.support-btn .fas {
+    transition: opacity 0.3s ease;
+}
+
+.support-options {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.support-option {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.support-option a {
+    color: #29a587;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.support-option:hover {
+    transform: scale(1.1);
+}
+
+.support-option:hover a {
+    color: #1c8c68;
 }
