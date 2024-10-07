@@ -11,7 +11,7 @@ Welcome to **LinkStream**, the personal showcase website of Harshil Chovatiya. T
 
 ## Live Demo
 
-Check out the live version of LinkStream at [https://harshilchovatiya.github.io/LinkStream](https://harshilchovatiya.github.io/LinkStream).
+Check out the live version of LinkStream at [https://harshilchovatiya.github.io/LinksStream](https://harshilchovatiya.github.io/LinksStream).
 
 ## Technologies Used
 
